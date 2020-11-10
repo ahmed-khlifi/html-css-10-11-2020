@@ -1,0 +1,82 @@
+body {
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    color: #3F3D56;
+    padding: 0;
+    margin: 0;
+}
+#header {
+    display: flex;
+    align-items: center;   
+}
+.title{
+    font-size: 72px;
+    margin: 0;
+}
+.header-text {
+    font-size: 20px;
+}
+
+#header img {
+    height: 350px;
+}
+#prices{
+    margin-bottom: 30px;
+}
+#prices .title {
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    height: 500px;
+    width: 320px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 40px #3f3d5671;
+    transition: background-color 0.4s ease;
+}
+.card:hover {
+    background-color: #3F3D56;
+    color: white;
+}
+.card img {
+    height: 200px;
+}
+.card-title {
+    font-size: 25px;
+}
+.card-text{
+    text-align: center;
+}
+.card div {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.card div button {
+    padding: 10px 20px;
+    background-color: #3F3D56;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+#technologies {
+    background-color: #3F3D56;
+    height: 100%;
+    padding: 40px;
+}
+#technologies .title{
+    color: #fff;
+    text-align: center;
+}
+#technologies div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
